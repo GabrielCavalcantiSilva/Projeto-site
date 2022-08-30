@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;      
@@ -13,4 +15,33 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
+}
+header {    
+    border-bottom: 4px solid #39b9cd;
+    background-color: black;
+    padding: 15px 0;
+}
+body {
+    font-family: 'barlow', sans-serif;
+}
+.titulo {
+    color:#39b9cd;
+    font-size: 14px;
+}
+.navegacao {
+    color: #efb661;
+    display: flex;
+}
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.navegacao ul li {
+    font-size: 12px;
+    cursor: pointer;
 }
